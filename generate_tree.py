@@ -1,7 +1,7 @@
 import os
 import requests
 
-USERNAME = 'your_github_username'
+USERNAME = 'jonathanjablon-stack'
 TOKEN = os.environ.get('GH_PAT')
 HEADERS = {'Authorization': f'token {TOKEN}'}
 
