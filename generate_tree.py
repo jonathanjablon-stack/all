@@ -31,7 +31,7 @@ def generate_html():
             html_content += f"<h2>{repo_name}</h2><ul>"
             for file in html_files:
                 # Creates a link to the raw HTML file or GitHub pages
-                link = f"https://YOUR_USERNAME.github.io/{repo_name}/{file}" 
+                link = f"https://jonathanjablon-stack.github.io/{repo_name}/{file}" 
                 html_content += f"<li><a href='{link}'>{file}</a></li>"
             html_content += "</ul>"
             
